@@ -1,0 +1,31 @@
+{
+  "name": "js-css-linter",
+  "version": "1.0.0",
+  "description": "A zero-dependency static analysis tool to detect unused variables, functions, and CSS in your codebase",
+  "main": "src/index.js",
+  "bin": {
+    "js-css-linter": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "node --test test/jsAnalyzer.test.js test/cssAnalyzer.test.js test/unusedCssAnalyzer.test.js",
+    "lint": "node bin/cli.js",
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "linter",
+    "unused-code",
+    "dead-code",
+    "javascript",
+    "css",
+    "static-analysis",
+    "code-quality",
+    "zero-dependency"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
