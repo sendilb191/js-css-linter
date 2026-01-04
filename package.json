@@ -7,7 +7,7 @@
     "js-css-linter": "./bin/cli.js"
   },
   "scripts": {
-    "test": "node --test test/jsAnalyzer.test.js test/cssAnalyzer.test.js test/unusedCssAnalyzer.test.js",
+    "test": "node --test test/jsAnalyzer.test.js test/cssAnalyzer.test.js test/unusedCssAnalyzer.test.js test/commentUtils.test.js test/fileUtils.test.js",
     "lint": "node bin/cli.js",
     "start": "node bin/cli.js"
   },
